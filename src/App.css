@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+}
+.App{
+  text-align: center;
+}
+.App-header{
+  background-color: black;
+  min-height: 10vh;
+  color: white;
+  display: flex;
+  margin: 40px;
+  align-items: center;
+  justify-content: center;
+  font-size: larger;
+}
+.todolabel{
+  font-size: 30px;
+}
+.input{
+  width: 50%;
+  padding: 15px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border-radius: 4px;
+  border: 1-z solid gray;
+  box-sizing: border-box;
+}
+.button{
+  background-color: darkblue;
+  border: none;
+  color: white;
+  padding: 11px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  margin-left: 8px;
+  cursor: pointer;
+}
